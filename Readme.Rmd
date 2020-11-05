@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Teammitglieder
 * JRH
 * ACV
+
 ## Forschungsfrage
 Einfluss von **gelber** Tapete
 ## Faktorenraum

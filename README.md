@@ -5,5 +5,9 @@ Teammitglieder
 --------------
 
 -   JRH
--   ACV \#\# Forschungsfrage Einfluss von **gelber** Tapete \#\#
-    Faktorenraum
+-   ACV
+
+Forschungsfrage
+---------------
+
+Einfluss von **gelber** Tapete \#\# Faktorenraum
