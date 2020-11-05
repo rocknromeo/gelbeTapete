@@ -10,4 +10,9 @@ Teammitglieder
 Forschungsfrage
 ---------------
 
-Einfluss von **gelber** Tapete \#\# Faktorenraum
+Einfluss von **gelber** Tapete
+
+Faktorenraum
+------------
+
+![Faktorenraum](Readme_files/figure-markdown_strict/Faktorenraum.png)
