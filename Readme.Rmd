@@ -1,0 +1,18 @@
+---
+title: "README"
+author: "JRH"
+date: "2022-10-18"
+output: md_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Einfluss von gelber Tapete
+## Teammitglieder
+* JRH
+* DPB
+
+# Forschungsfrage
+Einfluss von **gelber** Tapete
