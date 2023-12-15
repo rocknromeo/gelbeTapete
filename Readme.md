@@ -17,37 +17,6 @@ alt="Faktorenraum" />
 <figcaption aria-hidden="true">Faktorenraum</figcaption>
 </figure>
 
-    library(tidyverse)
-
-    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.3     ✔ readr     2.1.4
-    ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
-    ## ✔ ggplot2   3.4.4     ✔ tibble    3.2.1
-    ## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.2     
-    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-    ## ✖ dplyr::filter() masks stats::filter()
-    ## ✖ dplyr::lag()    masks stats::lag()
-    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-
-    df <- dataforsocialscience::robo_care
-
-    df.short <- df[,c(1:3,28:29)]
-    names(df.short)[4] <- "heidi"
-    names(df.short)[5] <- "tom"
-
-    df.short %>% 
-      filter(job_type == "employee" | job_type == "student") %>% 
-      filter(gender != "rather not say") %>% 
-      droplevels() -> df.short
-
-    df.short$agegroup <- cut(df.short$age, labels = c("jung", "alt"),
-                             breaks = c(-Inf, median(df.short$age),Inf))
-
-    jmv::mancova(df.short, 
-                 deps = c("heidi", "tom"), 
-                 factors = c("gender", "job_type", "agegroup"), multivar = "wilks")
-
     ## 
     ##  MANCOVA
     ## 

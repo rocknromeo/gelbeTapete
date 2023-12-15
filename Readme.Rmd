@@ -7,20 +7,7 @@ output: md_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
-# Einfluss von gelber Tapete
-## Teammitglieder
-* JRH
-* DPB
-
-# Forschungsfrage
-Was sind Einflussfaktoren auf die Akzeptanz von **gelber** Tapete?
-
-## Faktorenraum
-![Faktorenraum](Readme_files/figure-markdown_strict/Faktorenraum.png)
-
-```{r}
 library(tidyverse)
 
 df <- dataforsocialscience::robo_care
@@ -37,6 +24,20 @@ df.short %>%
 df.short$agegroup <- cut(df.short$age, labels = c("jung", "alt"),
                          breaks = c(-Inf, median(df.short$age),Inf))
 
+```
+
+# Einfluss von gelber Tapete
+## Teammitglieder
+* JRH
+* DPB
+
+# Forschungsfrage
+Was sind Einflussfaktoren auf die Akzeptanz von **gelber** Tapete?
+
+## Faktorenraum
+![Faktorenraum](Readme_files/figure-markdown_strict/Faktorenraum.png)
+
+```{r, echo = FALSE}
 jmv::mancova(df.short, 
              deps = c("heidi", "tom"), 
              factors = c("gender", "job_type", "agegroup"), multivar = "wilks")
