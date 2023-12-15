@@ -7,8 +7,12 @@
 
 # Forschungsfrage
 
-Einfluss von **gelber** Tapete
+Was sind Einflussfaktoren auf die Akzeptanz von **gelber** Tapete?
 
 ## Faktorenraum
 
-![Faktorenraum](Readme_files/figure-markdown_strict/Faktorenraum.png)
+<figure>
+<img src="Readme_files/figure-markdown_strict/Faktorenraum.png"
+alt="Faktorenraum" />
+<figcaption aria-hidden="true">Faktorenraum</figcaption>
+</figure>

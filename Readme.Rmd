@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 * DPB
 
 # Forschungsfrage
-Einfluss von **gelber** Tapete
+Was sind Einflussfaktoren auf die Akzeptanz von **gelber** Tapete?
 
 ## Faktorenraum
 ![Faktorenraum](Readme_files/figure-markdown_strict/Faktorenraum.png)
