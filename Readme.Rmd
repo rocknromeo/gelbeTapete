@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+author: "JRH"
+date: "2024-10-16"
+output: md_document
+---
+
+# Teammitglieder
+* JRH
+* PMB
+
+# Forschungsfrage
+"Wie ist die Aktzeptanz von gelber Tapete?"
+
+# Faktorenraum
+Hier wird später ein Bild eingebunden. 
+
+
